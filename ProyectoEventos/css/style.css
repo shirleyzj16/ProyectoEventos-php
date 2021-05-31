@@ -1,0 +1,372 @@
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("../fonts/Roboto-Black.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoBlackItalic";
+  src: url("../fonts/Roboto-BlackItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoBoldItalic";
+  src: url("../fonts/Roboto-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoItalic";
+  src: url("../fonts/Roboto-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/Roboto-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoLightItalic";
+  src: url("../fonts/Roboto-LightItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoMediumItalic";
+  src: url("../fonts/Roboto-MediumItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoThin";
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoThinItalic";
+  src: url("../fonts/Roboto-ThinItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* colores*/
+/* el color de fondo es el mismo que el de la letra en el header*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "RobotoRegular";
+  font-size: 18px;
+  color: #000000;
+  background-color: #F0F0F0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* header */
+.navbar-custom {
+  background-color: #000000;
+}
+.navbar-custom .navbar-brand {
+  color: #F0F0F0;
+}
+.navbar-custom .navbar-text {
+  color: #F0F0F0;
+}
+.navbar-custom .nav-link {
+  color: #F0F0F0;
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar li {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.logo {
+  height: 50px;
+  width: 120px;
+}
+@media only screen and (min-width: 1200px) {
+  .logo {
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    padding-left: 5px;
+  }
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #F0F0F0;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+/* se cambio el color a fondo */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* desplegable categoria */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #F0F0F0;
+  color: #000000;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F0F0F0;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  box-shadow: #C4C4C4;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3196E2;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #FF826C !important;
+  border-color: #FF826C !important;
+}
+
+/* eventos */
+.info_evento {
+  background-color: #C4C4C4;
+  color: #000000;
+  padding: 10px 10px 5px 5px;
+}
+
+.link_evento {
+  text-decoration: none;
+}
+.link_evento img {
+  width: 100%;
+  height: 200px;
+}
+
+.detalle_evento {
+  width: 90%;
+  /* en phone*/
+  padding-left: 50px;
+  padding-top: 20px;
+  color: #000000;
+}
+@media only screen and (min-width: 1200px) {
+  .detalle_evento {
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+}
+.detalle_evento h1 {
+  color: #3196E2;
+}
+
+.descripcion_evento {
+  background-color: #C4C4C4;
+  color: #000000;
+  padding: 5px 5px 5px 5px;
+  /* en phone*/
+  min-height: 50px;
+  /* en phone*/
+}
+@media only screen and (min-width: 1200px) {
+  .descripcion_evento {
+    min-height: 150px;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+.relacionados {
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  /* en phone*/
+  color: #000000;
+  padding-left: 50px;
+  /* en phone*/
+  display: table;
+}
+@media only screen and (min-width: 1200px) {
+  .relacionados {
+    height: 100px;
+    padding-left: 10px;
+  }
+}
+.relacionados span {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+}
+footer p {
+  background-color: #F0F0F0;
+  height: 2px;
+}
+@media only screen and (min-width: 1200px) {
+  footer p {
+    height: 5px;
+  }
+}
+
+.nav-bottom ul {
+  float: left;
+  margin: 0.6em 0 0;
+  padding: 0;
+}
+.nav-bottom ul li {
+  display: inline;
+  font-size: 0.9em;
+  padding: 1em 0 0 1em;
+}
+.nav-bottom ul li a {
+  display: inline-block;
+  color: #F0F0F0;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+  .nav-bottom ul li a {
+    padding: 2em 1em 1em 2em;
+  }
+}
+.nav-bottom ul li a:hover {
+  color: #F0F0F0;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+
+/* footer */
+/* registro evento y concluir evento usan variables iguales al ser ambos forms*/
+.header-section {
+  background: #000000;
+  padding: 0.7em;
+  margin: 0;
+  width: 100%;
+}
+
+.form-evento {
+  width: 90%;
+  /*para phone*/
+}
+@media only screen and (min-width: 1200px) {
+  .form-evento {
+    width: 35%;
+  }
+}
+.form-evento div {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+.form-evento .header-div {
+  padding-top: 30px;
+}
+.form-evento .total {
+  background-color: #E1E1E1;
+  min-height: 50px;
+  text-align: left;
+}
+.form-evento .footer-div {
+  min-height: 100px;
+}
+
+/* resumen reservacion */
+.detalle_resumen {
+  width: 95%;
+  /*para phone*/
+  margin: 0 auto;
+  padding-left: 10px;
+  /*para phone*/
+  padding-top: 20px;
+  /*para phone*/
+  color: #000000;
+}
+@media only screen and (min-width: 1200px) {
+  .detalle_resumen {
+    padding-left: 10px;
+    padding-top: 50px;
+    width: 60%;
+  }
+}
+.detalle_resumen h2 {
+  color: #3196E2;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.detalle_resumen .footer-div {
+  min-height: 150px;
+}
+
+.descripcion_resumen {
+  background-color: #C4C4C4;
+  color: #000000;
+  padding: 5px 5px 5px 5px;
+  /* en phone*/
+  min-height: 30px;
+  /* en phone*/
+}
+@media only screen and (min-width: 1200px) {
+  .descripcion_resumen {
+    min-height: 80px;
+    padding: 10px 10px 10px 10px;
+  }
+}
