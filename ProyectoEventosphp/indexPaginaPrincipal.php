@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+    
+   <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -10,58 +11,58 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
         <title>Pagina Principal</title>
-        
-      </head>
-
+   </head>
+       
 <body>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
 
-<div class="container-fluid" >
+  <div class="container-fluid" >
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-custom">  <!-- navbar -->
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="imgs/logoDeEvento.svg" class="logo"></a>
-              <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  <!-- menu de hamburguesa -->
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Categorias</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Informacion Sitio</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-   </div>      
-    </header>
-    <!-- header -->
+       <nav class="navbar navbar-expand-lg navbar-custom"  >
+           <div class="container-fluid">
+               <a class="navbar-brand" alt="imagen de logo" href=""><img src="imgs/logoDeEvento.svg" class="logo" alt=""></a>
+                 <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">>
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                         <li class="nav-item" >
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                         </li >
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Categorias</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Informacion Sitio</a>
+                         </li>
+                    </ul>
+                </div>
+           </div>
+       </nav>
+     </header>
 
+      <!-- header -->
+  </div>     
 
-<!-- buscador search -->
-<div class="container-fluid">
-    <form class="form-inline "></form>
-        <div class="row mw-100">
-            <div class="col-lg-11 col-9">
-                <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda de eventos" aria-label="Búsqueda de eventos">
-            </div>
-            <div class="col-lg-1 col-3">
-                <button class="btn btn-primary w-100 my-0 my-sm-0 rounded-0" type="submit">Buscar</button>
-            </div>
+  <!-- buscador search -->
+  <div class="container-fluid">
+     <form class="form-inline ">
+        <div class="col-lg-11 col-9">
+             <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda de eventos" aria-label="Búsqueda de eventos">
         </div>
-    </form>
+           <div>
+                <button class="btn btn-primary w-100 my-0 my-sm-0 rounded-0" type="submit">Buscar</button>
+           </div>
+
+     </form>
+
   </div>
-<!-- buscador search -->
+
+   <!-- buscador search -->
 
     <div class="container-fluid h-75">
           <div class="row d-flex justify-content-center">
@@ -181,9 +182,5 @@
         <p></p>
     </footer>
     <!-- footer -->
-
-
-    
-</body>
-
+ </body>
 </html>  
