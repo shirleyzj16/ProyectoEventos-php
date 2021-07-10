@@ -19,7 +19,7 @@
     <header>
         <div class="container-fluid">
              <div class="header-section d-flex justify-content-center">
-                 <a class="navbar-brand " href="indexPaginaPrincipal.php"><img src="imgs/logoDeEvento.svg" class="logo" alt=""></a>
+                 <a class="navbar-brand " href="index.php"><img src="imgs/logoDeEvento.svg" class="logo" alt=""></a>
              </div>
         </div>
     </header>
