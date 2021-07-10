@@ -17,7 +17,7 @@
      <!-- header -->
      <header>
         <div class="container-fluid">
-             <a class="navbar-brand " href="indexPaginaPrincipal.php"><img class="logo" src="imgs/logoDeEvento.svg" alt=""></a>
+             <a class="navbar-brand " href="index.php"><img class="logo" src="imgs/logoDeEvento.svg" alt=""></a>
         </div>
      </header>
     <!-- header -->

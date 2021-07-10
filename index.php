@@ -24,7 +24,7 @@
     <header>
        <nav class="navbar navbar-expand-lg navbar-custom"  >
            <div class="container-fluid">
-               <a class="navbar-brand" alt="imagen de logo" href=""><img src="imgs/logoDeEvento.svg" class="logo" alt=""></a>
+               <a class="navbar-brand" alt="imagen de logo" href="index.php"><img src="imgs/logoDeEvento.svg" class="logo" alt=""></a>
                  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">>
                      <span class="navbar-toggler-icon"></span>
                  </button>
@@ -87,7 +87,7 @@
           <!-- lista eventos -->
           <div class="row mw-90">
             <div class="col-lg-4 col-6 p-3">
-                <a href="DetalleEvento.html" class="link_evento">
+                <a href="DetalleEvento.php" class="link_evento">
                     <img src="imgs/1530570241_885041_1530570346_noticia_normal.jpg" class="img-fluid" alt="Responsive image"/>
                     <div class="info_evento">
                         <h2>Titulo de evento</h2>
@@ -98,7 +98,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-6 p-3">
-                <a href="DetalleEventoDos.html" class="link_evento">
+                <a href="DetalleEventoDos.php" class="link_evento">
                     <img src="imgs/musica.jpg" class="img-fluid" alt="Responsive image"/>
                     <div class="info_evento">
                         <h2>Titulo de evento</h2>

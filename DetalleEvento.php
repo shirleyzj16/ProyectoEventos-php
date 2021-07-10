@@ -32,7 +32,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                        <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                             <a class="nav-link active" aria-current="page" href="indexPaginaPrincipal.php">Inicio</a>
+                             <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#">Categorias</a>
@@ -72,7 +72,7 @@
                    descripcion de evento
                 </p>
               <p>
-                 <button class="btn btn-primary my-0 my-sm-0 rounded-0" onclick="location.href = 'RegistroEvento.html';">Registrarse</button>
+                 <button class="btn btn-primary my-0 my-sm-0 rounded-0" onclick="location.href = 'RegistroEvento.php';">Registrarse</button>
               </p>
             </div>
        </div>
